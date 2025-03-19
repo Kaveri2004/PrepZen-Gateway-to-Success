@@ -1,0 +1,44 @@
+.chat-container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .filter-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .messages {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .message {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .username {
+    font-weight: bold;
+  }
+  
+  .message-options {
+    display: flex;
+    justify-content: space-between;
+  }
+  
